@@ -40,11 +40,13 @@ const styles = StyleSheet.create({
     marginBottom: 20,
   },
   name: {
+    color: 'black',
     fontSize: 24,
     fontWeight: 'bold',
     marginBottom: 10,
   },
   bio: {
+    color: 'black',
     fontSize: 18,
     marginBottom: 20,
   },
@@ -53,10 +55,12 @@ const styles = StyleSheet.create({
     marginBottom: 10,
   },
   infoLabel: {
+    color: 'black',
     fontWeight: 'bold',
     marginRight: 5,
   },
   infoValue: {
+    color: 'gray',
     flex: 1,
   },
 });
