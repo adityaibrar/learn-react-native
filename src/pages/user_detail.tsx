@@ -43,6 +43,7 @@ const styles = StyleSheet.create({
     padding: 16,
   },
   loading: {
+    color: 'black',
     alignContent: 'center',
     textAlign: 'center',
     fontSize: 18,

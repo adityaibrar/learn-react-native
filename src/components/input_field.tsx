@@ -19,12 +19,15 @@ const TextInputField = ({
       value={value}
       secureTextEntry={secureTextEntry}
       onChangeText={onChangeText}
+      cursorColor={'black'}
+      placeholderTextColor={'gray'}
     />
   );
 };
 
 const styles = StyleSheet.create({
   input: {
+    color: 'black',
     width: '80%',
     height: 40,
     borderRadius: 10,

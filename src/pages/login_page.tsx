@@ -62,7 +62,6 @@ const LoginPage = () => {
         <Logo />
         <Text style={styles.title}>Technical</Text>
 
-        {/* Tambahkan label "Username" di sebelah kiri TextInputField */}
         <View style={styles.inputLabelContainer}>
           <Text style={styles.inputLabel}>Username</Text>
           <TextInputField
@@ -73,7 +72,6 @@ const LoginPage = () => {
           />
         </View>
 
-        {/* Tambahkan label "Password" di sebelah kiri TextInputField */}
         <View style={styles.inputLabelContainer}>
           <Text style={styles.inputLabel}>Password</Text>
           <TextInputField
@@ -106,6 +104,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   inputLabel: {
+    color: 'black',
     marginRight: 10,
   },
 });
